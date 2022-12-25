@@ -1,0 +1,37 @@
+.teachersedit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+.editinput{
+    width: 80%;
+}
+.input-group{
+    justify-content: center;
+    margin: 10px;
+}
+
+@media (min-width:400px) and (max-width:800px){
+    .teachersedit{
+        margin: 40px;
+    }
+    .input-group{
+        margin: 5px;
+    }
+    .editinput{
+        width: 60%;
+    }
+}
+
+@media (max-width:400px){
+    .teachersedit{
+        margin: 15px;
+    }
+    .input-group{
+        margin: 3px;
+    }
+    .editinput{
+        width: 100%;
+    }
+}

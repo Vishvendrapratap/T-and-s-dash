@@ -1,0 +1,44 @@
+.teachercont{
+    margin-top: 100px;
+    display: flex; flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin-bottom: 30px; text-align: center;
+}
+.usernameInput,.passwordInput{
+    width: 500px; height: 40px;
+    margin-bottom: 30px; ;
+}
+.btn{
+    width: 500px;
+}
+.signup{
+    text-decoration: none;
+}
+
+@media (min-width:450px) and (max-width:600px){
+    .teachercont{
+        margin-top: 30px;
+    }
+    .usernameInput,.passwordInput{
+        width: 400px; height: 40px;
+        margin-bottom: 15px; ;
+    }
+    .btn{
+        width: 300px;
+    }
+}
+
+@media (max-width:450px){
+    .teachercont{
+        margin-top: 20px;
+    }
+    .usernameInput,.passwordInput{
+        width: 250px; height: 30px;
+        margin-bottom: 10px; ;
+    }
+    .btn{
+        width: 150px;
+    }
+}

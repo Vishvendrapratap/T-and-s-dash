@@ -1,0 +1,77 @@
+.ticon{
+    font-size: 200px; margin-bottom: 0; 
+}
+.tfirstname{
+    font-size: 50px; margin-top: -40px;
+}
+.logout{
+    display: flex; 
+    justify-content: flex-end;margin: 10px;
+}
+.logoutbtn{
+    width: 100px;
+}
+.teacherdashboard{
+    display: flex; background-color: aqua; padding: 25px; 
+    border-radius: 50px; flex-wrap: wrap;justify-content: center;
+}
+.profilepic{
+    display: flex;align-items: center; flex-direction: column;margin-bottom: 15px;
+}
+.teacherInfo{
+    display: flex; flex-wrap: wrap;
+}
+.tinfoItem{
+   width: 50%; margin-bottom: 20px; 
+}
+.tname{
+    font-size: 20px;
+}
+.tvalue{
+    font-size: 30px; font-weight: 700;
+}
+
+
+
+@media (min-width:550px) and (max-width:800px){
+    .ticon{
+        font-size: 150px; margin-bottom: 0;
+    }
+    .tfirstname{
+        font-size: 40px; margin-top: -40px;
+    }
+    .teacherdashboard{
+        padding: 20px;
+    }
+    .tname{
+        font-size: 15px;
+    }
+    .tvalue{
+        font-size: 25px; font-weight: 500;
+    }
+   
+}
+@media (max-width:550px){
+    .ticon{
+        font-size: 100px; margin-bottom: 15px;
+    }
+    .tfirstname{
+        font-size: 30px; margin-top: -40px;
+    }
+    .teacherdashboard{
+        padding: 10px;
+    }
+    .tinfoItem{
+        width: 100%; margin-bottom: 10px;  text-align: center;
+     }
+    .tname{
+        font-size: 20px;
+    }
+    .tvalue{
+        font-size: 30px; font-weight: 700;
+    }
+    .teacherInfo{
+        flex-direction: column;
+    }
+    
+}

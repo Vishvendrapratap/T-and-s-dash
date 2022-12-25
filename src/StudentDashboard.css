@@ -1,0 +1,76 @@
+.sicon{
+    font-size: 200px; margin-bottom: 0;
+}
+.sfirstname{
+    font-size: 50px; margin-top: -40px;
+}
+.logout{
+    display: flex; 
+    justify-content: flex-end;margin: 10px;
+}
+.logoutbtn{
+    width: 100px;
+}
+.studentdashboard{
+    display: flex; background-color: aqua; padding: 25px; 
+    border-radius: 50px; flex-wrap: wrap;justify-content: center;
+}
+.profilepic{
+    display: flex;align-items: center; flex-direction: column;margin-bottom: 15px;
+}
+.studentInfo{
+    display: flex; flex-wrap: wrap; 
+}
+.sinfoItem{
+   width: 50%; margin-bottom: 20px;
+}
+.sname{
+    font-size: 20px;
+}
+.svalue{
+    font-size: 30px; font-weight: 700;
+}
+
+
+@media (min-width:550px) and (max-width:800px){
+    .sicon{
+        font-size: 150px; margin-bottom: 0;
+    }
+    .sfirstname{
+        font-size: 40px; margin-top: -40px;
+    }
+    .studentdashboard{
+        padding: 20px;
+    }
+    .sname{
+        font-size: 15px;
+    }
+    .svalue{
+        font-size: 25px; font-weight: 500;
+    }
+   
+}
+@media (max-width:550px){
+    .sicon{
+        font-size: 100px; margin-bottom: 15px;
+    }
+    .sfirstname{
+        font-size: 30px; margin-top: -40px;
+    }
+    .studentdashboard{
+        padding: 10px;
+    }
+    .sinfoItem{
+        width: 100%; margin-bottom: 10px;  text-align: center;
+     }
+    .sname{
+        font-size: 20px;
+    }
+    .svalue{
+        font-size: 30px; font-weight: 700;
+    }
+    .studentInfo{
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,43 @@
+body{
+    background-color:rgb(207, 233, 255) ;
+}
+.cards{
+    display: flex; justify-content: center;flex-wrap: wrap;
+}
+.card{
+    margin: 50px; width:min-content;
+}
+.image{
+    width: 100%;
+}
+.viewstudents,.viewteachers{
+    width: 350px!important;
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+}
+.teachers,.students{
+    margin: 20px;
+}
+.btn.btn-danger{
+    width: 100px;margin: 10px;
+}
+.actionbtn{
+    display: flex; flex-direction: row;
+}
+.teachertable{
+    background-color: rgb(182, 221, 255); border-radius: 8px;
+}
+.studenttable{
+    margin-top:50px; background-color: rgb(182, 221, 255); border-radius: 8px;
+}
+
+@media (max-width:500px){
+    .viewstudents,.viewteachers{
+        width: 200px!important;
+    }
+    .card{
+        margin: 10px; width:min-content;
+    }
+}
